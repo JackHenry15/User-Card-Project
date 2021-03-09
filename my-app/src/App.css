@@ -1,1 +1,32 @@
 
+body{
+    text-align: center;
+    width: 100%;
+}
+.App{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+img{
+    height: 236px;
+    width: 236px;
+}
+.followers-card-container{
+    display: grid;
+    align-content: center;
+    grid-template-columns: fit-content(300px) fit-content(300px) 1fr;
+    grid-gap: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+
+}
+.user-card-container{
+    width:fit-content;
+    align-self: center;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
+}
